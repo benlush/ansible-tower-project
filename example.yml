@@ -6,3 +6,6 @@
  
   - name: Hello World!
     shell: echo "Hi! Tower is working."
+ 
+  - name: Who Am I?
+    shell: /bin/whoami
