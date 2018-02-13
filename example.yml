@@ -9,3 +9,6 @@
  
   - name: Who Am I?
     shell: /bin/whoami
+
+  - name: CPU Info
+    shell: cat /proc/cpuinfo
