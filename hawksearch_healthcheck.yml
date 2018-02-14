@@ -1,5 +1,9 @@
+---
+
 - name: Healthcheck
+
   hosts: localhost
+
   tasks:
     - uri:
         url: http://dev.hawksearch.net/sites/rbauction-client/?fn=ajax&f=GetSuggestions&q=truck
